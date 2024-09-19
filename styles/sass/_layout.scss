@@ -1,0 +1,53 @@
+@import 'variables';
+@import 'mixins';
+
+body.b-index {
+    @include background-cover('.../img/img-index/bgprincipal.png');
+}
+
+#index-logotipo {
+    padding: 3px;
+}
+
+.cover-re {
+    display: flex;
+    justify-content: end;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.cover-re img {
+    width: 300px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 10px;
+    @include box-shadow($box-shadow);
+    font-family: $body-font;
+    color: $primary-color;
+}
+
+@media only screen and (min-width: 320px) {
+    .home-button {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .home-button img {
+        width: 75px;
+        height: auto;
+    }
+
+    .cover-re {
+        margin-bottom: 15px;
+    }
+
+    #index-logotipo {
+        width: 200px;
+    }
+}

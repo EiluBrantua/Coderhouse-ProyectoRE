@@ -1,0 +1,21 @@
+// Mixins para bordes redondeados
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+// Mixins para fondo
+@mixin background-cover($url) {
+    background: url($url) no-repeat center center fixed;
+    background-size: cover;
+}
+
+// Mixins para sombras
+@mixin box-shadow($shadow) {
+    box-shadow: $shadow;
+}
+
+// Mixins para texto sombra
+@mixin text-shadow($color, $x, $y) {
+    text-shadow: $color $x $y;
+  }
+  
