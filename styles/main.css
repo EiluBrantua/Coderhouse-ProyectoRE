@@ -98,7 +98,7 @@ body.b-index {
   background-position: center;
 }
 
-.game-box:hover {
+.game-box img:hover {
   filter: blur(1px);
   background-color: rgba(0, 0, 0, 0.1);
   border-color: #000;
