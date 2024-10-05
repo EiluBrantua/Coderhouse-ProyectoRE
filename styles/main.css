@@ -98,6 +98,11 @@ body.b-index {
   background-position: center;
 }
 
+.game-box:hover {
+  filter: blur(1px);
+  cursor: pointer;
+}
+
 #games {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   color: rgb(212, 0, 0);
